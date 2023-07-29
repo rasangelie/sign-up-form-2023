@@ -1,0 +1,48 @@
+input {
+    padding: 12px 10px;
+    border: solid 1px;
+    border-radius: 12px;
+    width: 210px;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    row-gap: 35px;
+    column-gap: 30px;
+    margin-bottom: 70px;
+}
+
+.button-style {
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 70px;
+    border-radius: 16px;
+    color: white;
+    background-color: #1A75D2;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.log-in {
+    color: #1A75D2;
+}
+
+.loginSize {
+    font-size: 12px;
+}
+
+.light, .loginSize {
+    color: #535353;
+}
+
+.light {
+    margin-top: -30px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 500;
+}

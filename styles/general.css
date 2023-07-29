@@ -9,7 +9,7 @@ body {
 .container {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    column-gap: 10px;
+    column-gap: 40px;
 }
 
 .left-section {
@@ -21,7 +21,7 @@ body {
 }
 
 .right-section {
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
 }
 
 
