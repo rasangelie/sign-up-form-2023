@@ -1,15 +1,16 @@
 
 body {
-    margin: 20px 30px;
+    margin: 20px 40px;
     padding: 0;
     font-family: 'Roboto', sans-serif;
     overflow: hidden;
+    
 }
 
 .container {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    column-gap: 40px;
+    column-gap:50px;
 }
 
 .left-section {
@@ -20,10 +21,10 @@ body {
     padding-bottom: 80px;
 }
 
-.right-section {
-    /* background-color: lightcoral; */
+/* .right-section {
+    
 }
-
+ */
 
 .flex-container {
     display: flex;
@@ -33,3 +34,6 @@ body {
     /* background-color: aqua; */
 }
 
+::placeholder {
+    font-family: 'Roboto', sans-serif;
+}

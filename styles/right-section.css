@@ -8,7 +8,7 @@ input {
 .form-grid {
     display: grid;
     grid-template-columns: 300px 300px;
-    row-gap: 35px;
+    row-gap: 40px;
     column-gap: 30px;
     margin-bottom: 70px;
 }
@@ -23,6 +23,8 @@ input {
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
+    position: relative;
+    margin-top: -20px;
 }
 
 .log-in {
@@ -45,4 +47,21 @@ input {
 h2 {
     font-size: 40px;
     font-weight: 500;
+}
+
+/* .input-control.success input {
+    border-color: green;
+} */
+
+.input-control.error input {
+    border-color: red;
+}
+
+.error {
+    color: red;
+    font-weight: 300;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 5px;
+    
 }
