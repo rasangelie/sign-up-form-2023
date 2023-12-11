@@ -19,14 +19,15 @@ body {
     border-radius: 30px;
     color: white;
     padding: 10px 25px;
-    padding-bottom: 45px;
+    padding-bottom: 55px;
    
     
 }
 
-/* .right-section {
-    background-color: aquamarine;
-} */
+.right-section {
+    /* background-color: aquamarine; */
+    margin-top: 20px;
+}
 
 
 .flex-container {
